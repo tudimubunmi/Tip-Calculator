@@ -139,6 +139,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="hnl-vS-zQF"/>
+                    <connections>
+                        <outlet property="billTextField" destination="0me-x7-kfa" id="JET-if-8Za"/>
+                        <outlet property="billTotalLabel" destination="0dG-LU-YBS" id="1n9-Mx-Izd"/>
+                        <outlet property="perPersonLabel" destination="NaW-C5-FVI" id="N6m-hH-afr"/>
+                        <outlet property="splitLabel" destination="312-Vd-Ca9" id="6oP-mW-zS2"/>
+                        <outlet property="splitSlider" destination="Ten-od-FF7" id="lXf-76-QdT"/>
+                        <outlet property="tipLabel" destination="2mD-Bz-uAc" id="aMx-Go-elR"/>
+                        <outlet property="tipSlider" destination="kDl-Yr-mTL" id="qTs-cI-cgP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
